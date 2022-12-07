@@ -375,24 +375,6 @@ int main() {
                 int input2;
                 cin >> input2;
 
-//                if (input2 == 1 || input2 == 3) { // because sets are already sorted, states and scores are both sorted
-//                    auto iter = statesSet.begin();
-//                    index = 0;
-//                    for (; iter != statesSet.end(); iter++) {
-//                        cout << *iter << endl;
-//                        cout << "Math\tReading" << endl;
-//
-//                        auto iterMath = vecOfSetMath[index].begin();
-//                        auto iterEng = vecOfSetEng[index].begin();
-//                        for (;iterMath != vecOfSetMath[index].end(); iterMath++){
-//                            cout << *iterMath << "\t\t" << *iterEng << endl;
-//                            if(iterEng != vecOfSetEng[index].end())
-//                                iterEng++;
-//                        }
-//                        index++;
-//                    }
-//                    cout << endl;
-//                }
                 if (input2 == 1 || input2 == 3) { // because sets are already sorted, states and scores are both sorted
                     auto iter = statesSet.begin();
                     index = 0;
